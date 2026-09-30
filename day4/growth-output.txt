@@ -1,0 +1,71 @@
+unique distractors generated: 1000
+embedded 1024 texts in 19s
+distractors | recall@3 (Day 3 score) | recall@3 (similarity only) | median rank of gold (Day 3 score)
+          0 |  9/12 |  9/12 | 2
+         10 |  8/12 |  9/12 | 2
+         30 |  8/12 |  8/12 | 2
+        100 |  7/12 |  7/12 | 2
+        300 |  4/12 |  6/12 | 5
+       1000 |  3/12 |  4/12 | 15
+
+per-query detail (Day 3 score): rank at n=0 -> n=1000, and the top-3 at n=1000
+[1->1] Q: Which container platform should my examples target?
+      gold: User now uses AWS ECS for container orchestration. (sim 0.62)
+      top: User now uses AWS ECS for container orchestration. (sim 0.62, imp 0.72)
+      top: User prefers Python examples. (sim 0.58, imp 0.84)
+      top: User wants to learn Elasticsearch at work. (sim 0.54, imp 0.93)
+[3->29] Q: Suggest a snack for my afternoon.
+      gold: User is allergic to peanuts. (sim 0.48)
+      top: User mentioned they like hiking on weekends. (sim 0.49, imp 0.88)
+      top: User volunteers on Sundays. (sim 0.45, imp 0.86)
+      top: User is evaluating Spark at work. (sim 0.44, imp 0.92)
+[1->5] Q: Explain eventual consistency to me.
+      gold: User prefers concise explanations. (sim 0.50)
+      top: User is debugging an issue in Redis for a side project. (sim 0.43, imp 0.90)
+      top: User has production experience with Java. (sim 0.43, imp 0.93)
+      top: User is debugging an issue in React at work. (sim 0.43, imp 0.88)
+[8->523] Q: Show me how to implement a retry with backoff.
+      gold: User prefers Python examples. (sim 0.34)
+      top: User is debugging an issue in Redis for a side project. (sim 0.50, imp 0.90)
+      top: User wants to learn Redis. (sim 0.48, imp 0.93)
+      top: User is debugging an issue in MongoDB at their previous company. (sim 0.47, imp 0.93)
+[5->121] Q: What should I focus on this week?
+      gold: User is preparing for a backend engineering interview. (sim 0.46)
+      top: User mentioned they like hiking on weekends. (sim 0.49, imp 0.88)
+      top: User is migrating away from React for a side project. (sim 0.44, imp 0.95)
+      top: User is evaluating Spark at work. (sim 0.45, imp 0.92)
+[1->2] Q: Help me plan a birthday party for my kid.
+      gold: User's daughter is named Aria. (sim 0.48)
+      top: User wants to learn Django for a side project. (sim 0.48, imp 0.86)
+      top: User's daughter is named Aria. (sim 0.48, imp 0.89)
+      top: User wants to learn Java for a side project. (sim 0.48, imp 0.77)
+[2->4] Q: What's a good place for a weekend trip nearby?
+      gold: User lives in Pune. (sim 0.43)
+      top: User mentioned they like hiking on weekends. (sim 0.63, imp 0.88)
+      top: User travels to Bangalore often. (sim 0.48, imp 0.82)
+      top: User volunteers on Sundays. (sim 0.44, imp 0.86)
+[1->18] Q: Which database features should I learn deeply?
+      gold: User's team uses PostgreSQL as the primary database. (sim 0.56)
+      top: User wants to learn GraphQL. (sim 0.63, imp 0.94)
+      top: User wants to learn GraphQL at work. (sim 0.62, imp 0.92)
+      top: User wants to learn MongoDB for a side project. (sim 0.64, imp 0.79)
+[1->1] Q: Any ideas for this Saturday?
+      gold: User mentioned they like hiking on weekends. (sim 0.47)
+      top: User mentioned they like hiking on weekends. (sim 0.47, imp 0.88)
+      top: User volunteers on Sundays. (sim 0.44, imp 0.86)
+      top: User is migrating away from React for a side project. (sim 0.38, imp 0.95)
+[2->12] Q: Recommend a dinner recipe.
+      gold: User is vegetarian. (sim 0.48)
+      top: User wants to learn Prometheus in production. (sim 0.45, imp 0.89)
+      top: User wants to learn FastAPI for a side project. (sim 0.47, imp 0.83)
+      top: User wants to learn Django for a side project. (sim 0.45, imp 0.86)
+[5->96] Q: When is a good time to schedule our study session?
+      gold: User works night shifts on Thursdays. (sim 0.46)
+      top: User wants to learn GraphQL at work. (sim 0.48, imp 0.92)
+      top: User wants to learn Elasticsearch at work. (sim 0.47, imp 0.93)
+      top: User is learning Rust in the evenings. (sim 0.52, imp 0.74)
+[3->209] Q: Recommend a side project for me.
+      gold: User is learning Rust in the evenings. (sim 0.49)
+      top: User is evaluating Istio for a side project. (sim 0.65, imp 0.91)
+      top: User uses Java for a side project. (sim 0.68, imp 0.79)
+      top: User wants to learn Django for a side project. (sim 0.66, imp 0.86)
