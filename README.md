@@ -45,7 +45,7 @@ We'll look at:
 * Why context is not memory
 * Why agents need memory
 
-[Read Day 1 →](https://x.com/_jaydeepkarale/status/2092978482699796969))
+[Read Day 1 →](https://x.com/_jaydeepkarale/status/2092978482699796969)
 
 ---
 
