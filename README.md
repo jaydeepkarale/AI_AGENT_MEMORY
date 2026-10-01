@@ -104,7 +104,7 @@ We'll explore:
 * Retrieval failures
 * Why "more memory" doesn't necessarily make an agent smarter
 
-[Read Day 4 → COMING SOON](./day-4)
+[Day 4 → COMING SOON](./day-4)
 
 ---
 
@@ -129,7 +129,7 @@ We'll look at the practical problems that appear when memory becomes part of a r
 
 The goal is to move from **"my agent remembers things"** to **"my agent has a memory system I can reason about and operate."**
 
-[Read Day 5 → COMING SOON](./day-5)
+[Day 5 → COMING SOON](./day-5)
 
 ---
 
