@@ -82,7 +82,7 @@ We'll cover:
 
 This is where the concepts start becoming tangible.
 
-[Read Day 3 →]((https://x.com/_jaydeepkarale/status/2100581939849965937))
+[Read Day 3 →](https://x.com/_jaydeepkarale/status/2100581939849965937)
 
 ---
 
